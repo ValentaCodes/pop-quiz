@@ -50,7 +50,7 @@ var questions = [
 //initializes start button
 startButton.addEventListener("click", startQuiz);
 nextButton.hidden = true; // hides next button until game starts
-answerButtonsEl.hidden = true; //hides answer button unitl game start
+answerButtonsEl.hidden = true; //hides answer button until game start
 
 //Starts quiz and shuffles questions
 function startQuiz() {
