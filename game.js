@@ -143,6 +143,6 @@ function endQuiz() {
   clearInterval(timer);
   localStorage.setItem("score", score);
   if (endQuiz) {
-    return window.location.assign("end.html");
+    return window.location.assign("/end.html");
   }
 }
