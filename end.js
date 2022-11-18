@@ -1,7 +1,7 @@
 var initials = document.getElementById("initials");
 var saveScoreBtn = document.getElementById("save-score-btn");
 const finalScore = document.getElementById("finalScore");
-const mostRecentScore = localStorage.getItem("user");
+const mostRecentScore = localStorage.getItem("score");
 
 const highScores = JSON.parse(localStorage.getItem("highscores")) || [];
 const maxHigh = 5;
