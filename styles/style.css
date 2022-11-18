@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: auto;
+  margin: auto;
+  font-family: "Arial Narrow Bold";
+}
+header {
+  display: flex;
+  font-size: 25px;
+  padding-bottom: 2%;
+}
+.timer {
+  position: absolute;
+  right: 2%;
+  padding-bottom: 2%;
+}
+.score {
+  position: absolute;
+  left: 1%;
+}
+body {
+  text-align: center;
+  background-color: grey;
+  color: rgb(86, 214, 86);
+}
+.score {
+  text-decoration: rgb(86, 214, 86);
+}
+.btn {
+  font-size: 1.5rem;
+  background-color: rgb(86, 214, 86);
+}
+.btn:focus {
+  background-color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 2rem;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  border: 3px solid black;
+  padding: 10%;
+  background-color: black;
+  color: rgb(86, 214, 86);
+}
+.ans-btn {
+  display: grid;
+  margin-top: 15%;
+  font-size: 2rem;
+}
+#highScoreList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+.high-score {
+  font-size: 2.8rem;
+}
+
+.nextbtn {
+  display: grid;
+  font-size: 2rem;
+}
