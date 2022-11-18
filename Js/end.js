@@ -23,32 +23,3 @@ saveHighScore = (e) => {
   window.location.assign("./scores.html");
   console.log(highScores);
 };
-
-// //currently working on
-// function setScore() {
-//   // When clicked, log user details in LocalStorage
-//   logScoreButton.addEventListener("click", () => {
-//     let user = {
-//       initials: userInitialsInput.value.trim(),
-//       score: `${score}/3`,
-//       time: `${timerCount} seconds left`,
-//     };
-//     localStorage.setItem("user", JSON.stringify(user));
-//   });
-// }
-
-// //currently working
-// function displayLeaderBoard() {
-//   var container = document.getElementById("leaderboard");
-//   var retrieveScores = JSON.parse(localStorage.getItem("user"));
-//   var ol = document.createElement("ol");
-//   container.textContent = "hi";
-
-//   for (i = 0; i < retrieveScores.length; i++) {
-//     var li = document.createElement("li");
-
-//     li.innerHTML = `${retrieveScores[i].initials} - ${retrieveScores[i].score}`;
-//     ol.appendChild(li);
-//     container.appendChild(ol);
-//   }
-// }
